@@ -5,11 +5,7 @@
  * @lastUpdated September 10, 2025 1:36 AM MST
  */
 
-function CCSA_Clean_Script_Properties() {
-  var sharedFolderId = '1FjPQgXRkj7xZXLKyYtaF3Y9o4RTe46Wc';
-  var folder = DriveApp.getFolderById(sharedFolderId);
-  var fileName = 'ScriptProp.csv';
-  var files = folder.getFilesByName(fileName);
+function C
   
   // Check if ScriptProp.csv exists
   if (!files.hasNext()) {
@@ -23,11 +19,7 @@ function CCSA_Clean_Script_Properties() {
   var csvRows = Utilities.parseCsv(csvContent);
   
   // Define essential properties to keep
-  var keepProperties = [
-    'CCSA_Docs_Parent', 'DocStore_gDrive', 'DocStore_GitHub',
-    'GITHUB_REPO_OWNER', 'GITHUB_REPO_NAME', 'GITHUB_PAT', 'GITHUB_BRANCH',
-    'BACKUP_FOLDER_ID', 'G_FOLDER_ID', 'gSiteUrl'
-  ];
+            
   
   // Update Script Properties
   var scriptProperties = PropertiesService.getScriptProperties();
