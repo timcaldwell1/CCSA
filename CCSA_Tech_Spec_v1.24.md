@@ -4,7 +4,7 @@
 **Date**: 08-29-2025  
 **Time**: 11:45 AM MST  
 **Approved**: 08-29-2025  
-**Author**: Tim Caldwell with G (Grok, xAI)
+**Author**: Tim Caldwell with Grok (Grok, xAI)
 
 ## 1\. Introduction
 
